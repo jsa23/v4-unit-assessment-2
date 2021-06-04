@@ -1,3 +1,179 @@
+.header {
+    height: 10vh;
+    width: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+}
+.navigation {
+    width: 100%;
+    height: 90px;
+    display: inline-block;
+    justify-content: flex-start;
+    background-color: rgb(37, 37, 37)
+}
+
+.list {
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 900px;
+    margin-right: 0px;
+    color: white;
+}
+.nav-item1 {
+    display: inline;
+    font:14px/28px 
+}
+.nav-item2 {
+    display: inline;
+    align-content: center;
+    font:14px/28px
+}
+.nav-item3 {
+    display: inline;
+    font:14px/28px 
+}
+.nav-item4 {
+    display: inline;
+    font:14px/28px 
+
+}
+.nav-item5 {
+    display: inline;
+    align-items: flex-end;
+    font:14px/28px 
+}
+.nav-item6 {
+    display: inline;
+    justify-content:flex-end;
+    font:14px/28px 
+}
+.space-box {
+    position: absolute;
+    height: 40px;
+    padding-top: 30px;
+    padding-left: 120px;
+    width: 270px;
+    font-size: 32px;
+    display: inline-block;
+    color: rgb(42, 171, 226)
+}
+.right-box {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+   right: 25px;
+   top: 30px;
+}
+.right-little-box1 {
+    height: 5px;
+    width:30px;
+    position: absolute;
+   right: 5px;
+   top: 5px;
+}
+.right-little-box2 {
+    height: 5px;
+    width:30px;
+
+    position: absolute;
+   right: 5px;
+   top: 15px;
+}
+.right-little-box3 {
+    height: 5px;
+    width:30px;
+
+    position: absolute;
+   right: 5px;
+   top: 25px;
+}
+h1 {
+    position: absolute;
+    top: 800px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+h3 {
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+}
+h4 {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 23px;;
+}
+.button {
+    height: 60px;
+    width: 150px;
+    border: 2px solid white;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+    top: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.new-box {
+    height: 400px;
+    width: 200px;
+    background-color: green;
+    position: absolute;
+    right: 70px;
+    margin-right: 40px;
+    margin-top: 400px;
+}
+.new-box-list {
+    font-size: 22px;
+}
+.new-box-2 {
+    height: 150px;
+    width: 200px;
+    background-color: green;
+    position: absolute;
+    right: 70px;
+    margin-right: 40px;
+    margin-top: 200px;
+    justify-content: center;
+    align-content: flex-end;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 
 
 these are the colors used in the example
