@@ -8,7 +8,7 @@
     Call the array 'myArr'.
 */
 
-//CODE HERE
+let myArr = [4,`abc`,['cat','dog','bird'],77]
 
 
 ////////////////////PROBLEM 2////////////////////
@@ -20,8 +20,8 @@
 
 const nestedLetters = ['m', 'g', 'e', 'q', 'h', ['n', 'b', ['v', 'z', 'y', 'r']], 'a']
 
-//CODE HERE
-
+console.log(nestedLetters[[[`z`]]])
+var foundZ = 0
 
 ////////////////////PROBLEM 3////////////////////
 /*
@@ -36,15 +36,14 @@ const savannah = ['lion', 'zebra', 'lion', 'giraffe']
 const desert = ['rattlesnake', 'coyote']
 //DO NOT EDIT CODE ABOVE
 
-//CODE HERE
-
+.spread.ocean.savannah.desert.forest = [animals]
 
 /*
     Now use the spread operator to make a copy of your animals array.
     Call the new array 'animalsCopy' and add 'elephant' onto the end of the array.
 */
 
-//CODE HERE
+animalsCopy =(`elephant`)
 
 
 ////////////////////PROBLEM 4////////////////////
@@ -55,7 +54,7 @@ const desert = ['rattlesnake', 'coyote']
     If the numbers are the same, just return the number.
 */
 
-//CODE HERE
+function compareNums(num,num){}
 
   
 ////////////////////PROBLEM 5////////////////////
@@ -67,7 +66,9 @@ const desert = ['rattlesnake', 'coyote']
     we would expect the function to return 'Sharknado is the best movie ever!'
 */
 
-//CODE HERE
+function bestMovie(movie) {
+    return `${movie} is the best movie ever!`;
+}
   
   
 ////////////////////PROBLEM 6////////////////////
@@ -75,7 +76,9 @@ const desert = ['rattlesnake', 'coyote']
     Write an arrow function called 'jsNinja' that returns the string: 'I am a JavaScript ninja!'
 */
 
-//CODE HERE
+function jsNinja(){
+    return `I am a Javascript Ninja`;
+}
   
 
 ////////////////////PROBLEM 7////////////////////
@@ -96,7 +99,7 @@ const desert = ['rattlesnake', 'coyote']
     delete the rating property off of the gameInfo object.
 */
 
-//CODE HERE
+delete gameInfo.name.Splendor;
   
 
 ////////////////////PROBLEM 8////////////////////
@@ -160,7 +163,8 @@ const classes = [
     all online classes with no homework.
 */
 
-//CODE HERE
+for(let key in classes) {
+}
 
   
 ////////////////////PROBLEM 10////////////////////
@@ -176,7 +180,8 @@ const lettersToPair = ['e', 'k', 's', 'a', 'e', 's', 'a', 'n', 'k', 'n']
 let pairsArray = []
 //DO NOT EDIT CODE ABOVE
 
-//CODE HERE
+for(let key in letterToPair) {
+}
 
     
 
@@ -193,7 +198,8 @@ let pairsArray = []
     Those values should come from the functions parameters: name, age, breed, tricks (in order).
 */
 
-//CODE HERE
+function Dog(name,age,breed,tricks) {
+}
 
 
 /*
@@ -202,7 +208,7 @@ let pairsArray = []
     Store the result in a variable called 'fido'.
 */
 
-//CODE HERE
+console.log((Dog))
   
 
 ////////////////////PROBLEM 12////////////////////
@@ -212,7 +218,9 @@ let pairsArray = []
     NAME will come from that context, so you should reference 'this.name' to get the correct name.
 */
 
-//CODE HERE
+function bark(name) {
+    return `${name} says bark!`;
+}
 
 
 /*
@@ -220,7 +228,8 @@ let pairsArray = []
     and saving the result to a variable called fidoSpeak.
 */
 
-//CODE HERE
+console.log((bark))
+let fidoSpeak = '';
   
   
 ////////////////////PROBLEM 13////////////////////
@@ -231,7 +240,9 @@ let pairsArray = []
     Tricks will come from that context, so you should reference 'this.tricks' to access the correct array.
 */
 
-//CODE HERE
+function teachTrick(trick) {
+
+}
 
 
 /*
@@ -239,7 +250,7 @@ let pairsArray = []
     Save the result to a variable called 'teachStay'.
 */
 
-//CODE HERE
+let teachStay = '';
   
   
 ////////////////////PROBLEM 14////////////////////
@@ -250,7 +261,9 @@ let pairsArray = []
     Remember to use the 'this' keyword to access values from the context that you will apply.
 */
 
-//CODE HERE
+function dogIntro(treat,toy) {
+    return `${name} is a ${breed} that loves ${treat} and their ${toy}`;
+}
 
 
 /*
@@ -259,7 +272,10 @@ let pairsArray = []
     and save the result to a variable called fidoIntro.
 */
 
-//CODE HERE
+dogIntro(fido)
+this.chicken;
+this.tennis-ball;
+let fidoIntro = ''
   
 
 ////////////////////PROBLEM 15////////////////////
@@ -269,7 +285,8 @@ let pairsArray = []
     Those values should come from the function's parameters: brand, model, storage, color, sold (in order).
 */
 
-//CODE HERE
+function Phone(brand, model, storage, color, sold) {
+}
 
   
 /*
@@ -283,12 +300,11 @@ let pairsArray = []
     - sold, this should be false for each phone
 */
 
-//CODE HERE
-  // let phone1 = 
+let phone1 = 'samsung'
   
-  // let phone2 = 
+let phone2 = 'flip'
   
-  // let phone3 = 
+let phone3 = 512
   
 /*
     Last, add a prototype method to Phone.
@@ -298,6 +314,6 @@ let pairsArray = []
     Don't forget about the context of BRAND and MODEL.
 */
 
-//CODE HERE
+prototype.Phone(sell) 
 
   
