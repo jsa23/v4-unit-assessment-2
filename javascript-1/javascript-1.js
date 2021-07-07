@@ -43,7 +43,8 @@ const desert = ['rattlesnake', 'coyote']
     Call the new array 'animalsCopy' and add 'elephant' onto the end of the array.
 */
 
-animalsCopy =(`elephant`)
+animalsCopy = ('...animals') 
+animals Copy.push(elephant) 
 
 
 ////////////////////PROBLEM 4////////////////////
@@ -54,7 +55,13 @@ animalsCopy =(`elephant`)
     If the numbers are the same, just return the number.
 */
 
-function compareNums(num,num){}
+compareNums(num1, num2) => {
+If(num1 < num2) {
+Return (num2)
+} else if{
+(num1 > num2) {
+Return (num1) 
+} 
 
   
 ////////////////////PROBLEM 5////////////////////
